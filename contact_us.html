@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="icon" href="./media/img/contact.png">
+  <!-- Tailwind-css link -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- js link -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
+<body class="bg-gray-100 relative">
+
+<video autoplay loop muted playsinline class="fixed top-0 left-0 w-full h-auto object-cover z-0">
+  <source src="./media/tech-w.mp4" type="video/mp4">
+</video>
+
+<div class="container mx-auto px-4 py-16 relative z-10">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="bg-white p-8 rounded-lg shadow-md border-double border-8 border-red-300 rounded-lg">
+      <h3 class="text-3xl md:text-3xl font-bold mb-4 text-red-600">Talk to Paveeria Team</h3>
+      <p class="text-gray-600 text-xl">
+        Paveeria Tech Solutions has a responsive team that will respond to your concern within a short time. You can also make a call or visit our offices.
+      </p>
+
+      <div class="mt-6  text-xl">
+        <div class="mb-2 flex items-center">
+          <i class="fas fa-map-marker-alt text-red-600 mr-2"></i>
+          <a href="#" class="text-gray-700">Nyeri Complex Mall, 5, Nyeri, Nyeri 139-10100, KE</a>
+        </div>
+        <div class="mb-2 flex items-center">
+          <i class="fas fa-envelope text-red-600 mr-2"></i>
+          <a href="#" class="text-gray-700">info@paveeriatechsolutions.co.ke.com</a>
+        </div>
+        <div class="mb-2 flex items-center">
+          <i class="fas fa-phone text-red-600 mr-2"></i>
+          <a href="#" class="text-gray-700">+254702450696</a>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <p class="text-red-600 font-bold">Follow Us :</p>
+        <div class="flex space-x-4 mt-2">
+          <a href="#" class="text-gray-700 hover:text-white px-4 py-2 text-2xl bg-gray-200 rounded-lg hover:bg-red-500"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-700 hover:text-white px-4 py-2 text-2xl bg-gray-200 rounded-lg hover:bg-red-500"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-gray-700 hover:text-white px-4 py-2 text-2xl bg-gray-200 rounded-lg hover:bg-red-500"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-gray-700 hover:text-white px-4 py-2 text-2xl bg-gray-200 rounded-lg hover:bg-red-500"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white p-8 rounded-lg shadow-md relative border-double border-8 border-red-300 rounded-lg">
+      <span class="absolute bg-red-300 h-10 w-10 rounded-full top-0 left-0"></span>
+      <span class="absolute bg-red-300 h-20 w-20 rounded-full top-0 right-0"></span>
+      <h3 class="text-3xl md:text-3xl font-bold mb-6 text-red-600">Contact Us</h3>
+      <form action="index.html" method="POST" autocomplete="on">
+        <div class="mb-4">
+            <label class="text-red-600 font-bold">Full Name</label>
+          <input type="text" name="name" placeholder="Full Name" class="input px-4 w-full border-solid border-2 border-gray-300 rounded-lg" />
+        </div>
+        <div class="mb-4">
+            <label class="text-red-600 font-bold">Email</label>
+          <input type="email" name="email" placeholder="Email" class="input px-4 w-full border-solid border-2 border-gray-300 rounded-lg" />
+        </div>
+        <div class="mb-4">
+            <label class="text-red-600 font-bold">Phone</label>
+          <input type="tel" name="phone" placeholder="Phone" class="px-4 w-full border-solid border-2 border-gray-300 rounded-lg" />
+        </div>
+        <div class="mb-4">
+            <label class="text-red-600 font-bold">Message</label>
+          <textarea name="message" placeholder="Your message" class="px-4 input w-full h-32 border-solid border-2 border-gray-300 rounded-lg"></textarea>
+        </div>
+        <div class="flex justify-between">
+          <a href="index.html" class="py-2 px-4 bg-gray-400 rounded-lg">back</a>
+          <button type="submit" name="submit" class="py-2 px-10 bg-trasparent border-solid border-2 border-black hover:text-white text-black rounded-xl shadow-md hover:bg-red-500 transition duration-300 ease-in-out transform hover:scale-105">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
